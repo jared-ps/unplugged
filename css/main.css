@@ -144,11 +144,17 @@ textarea {
   img {
     width: 100%;
   }
+
+  figure {
+    margin: 0;
+  }
+
   address {
 
     font-style: normal;
 
   }
+
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
@@ -209,6 +215,14 @@ textarea {
 
   header nav ul li {
     font-size: 1.125em;
+  }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   /* Footer Styles */
@@ -541,6 +555,10 @@ textarea {
 
   .header-divider {
     display: none;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   /* Hero Area */
