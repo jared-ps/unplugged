@@ -141,7 +141,9 @@ textarea {
     line-height: 1.285em;
   }
 
-
+  img {
+    width: 100%;
+  }
   address {
 
     font-style: normal;
@@ -256,10 +258,9 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url("../img/hero.jpg");
+    background: url("../img/hero.jpg") center no-repeat #333;
     min-height: 500px;
-    background-size: auto;
-    background-position: center;
+    background-size: cover;
     }
 
   .hero-area h1 {
@@ -314,8 +315,9 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url("../img/features.jpg");
+    background: url("../img/features.jpg") center no-repeat #333;
     background-size: cover;
+    
   }
 
   .features h2 {
