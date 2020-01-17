@@ -165,11 +165,11 @@ textarea {
 
   header, 
   footer {
+    
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    background-color: #202322;
    
   }
 
@@ -581,6 +581,7 @@ textarea {
 
   /*General styles*/
 
+
   .content-wrapper {
     max-width: 640px;
     margin: 10px 0;
@@ -790,6 +791,14 @@ textarea {
     width: 45%;
   }
 
+  .mission .content-wrapper {
+    margin: 90px 0;
+  }
+
+  .contact-section .content-wrapper {
+    margin: 90px 0;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -906,17 +915,24 @@ textarea {
     width: 960px;
   }
 
-  .contact-section .content-wrapper h2 {
-    margin-bottom: 90px;
-  }
+ 
 
   /********* FAQ Page *********/
   .faq h2 {
     width: 100%;
   }
 
+  .faq h4 {
+    font-size: 1em;
+  }
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
   .faq-content {
-    flex-basis: 480px;
+  
+    padding: 0 40px 0 0;
   }
 }
 
